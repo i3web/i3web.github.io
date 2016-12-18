@@ -292,7 +292,7 @@ li.index {
     top: 23%;
     right: 10px;
     width: 121px;
-    background: url(../img/zxbg.jpg) left center repeat-y;
+    /*background: url(../img/zxbg.jpg) left center repeat-y;*/
     z-index: 33;
 }
 
@@ -317,7 +317,7 @@ li.index {
     padding-left: 35px;
     color: #fff;
     font-size: 14px;
-    background: url(../images/ser.png) 3px top no-repeat;
+    /*background: url(../images/ser.png) 3px top no-repeat;*/
 }
 
 .ewm {
@@ -582,7 +582,7 @@ li.index {
     z-index: 1000;
     display: none;
     float: left;
-    min-width: 0px;
+    min-width: 0;
     /*padding: 5px 0;*/
     /*margin: 2px 0 0;*/
     font-size: 14px;
@@ -843,7 +843,7 @@ li.index {
 .gTitle {
     font-size: 22px;
     display: inline-block;
-    margin-top: 0px;
+    margin-top: 0;
     line-height: 42px;
     vertical-align: bottom;
 }
@@ -871,7 +871,7 @@ li.index {
 }
 
 .contactusMain .group {
-    margin: 20px 0px;
+    margin: 20px 0;
 }
 
 .askTitle {
@@ -959,12 +959,13 @@ li.index {
 .fixedLeft {
     position: fixed;
     top: 100px;
+    z-index: 1000;
 }
 
 .fixedTop {
     position: fixed;
     top: 0;
-    z-index: 1000;
+    z-index: 1100;
     width: 100%;
     opacity: 0.9;
 }
@@ -1129,12 +1130,11 @@ li.index {
     line-height:22px;
 }
 .serviceMain .group{
-    /* margin: -30px 0; */
-    /*padding-top: 60px;*/
+    /*margin-top:40px;*/
 }
 .forPosition{
-    /* padding-top:60px; */
-    height: 83px;
+    padding-top: 60px;
+    margin-top: -40px;
 }
 .serviceMain .imgCon{
     margin:10px 0
